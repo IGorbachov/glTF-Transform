@@ -73,7 +73,7 @@ const io = new NodeIO()
 // Read from URL.
 const document = await io.read('path/to/model.glb');
 
-// Write to byte array (Uint8Array).
+// Write to byte array (Uint8Array).+
 const glb = await io.writeBinary(document);
 ```
 
